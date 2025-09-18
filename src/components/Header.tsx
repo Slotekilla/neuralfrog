@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <div className="flex items-center space-x-3">
           <img 
-            src="/public/2061d194-caa5-4e6a-a2e9-06fd34ac1f9f.png" 
+            src="/2061d194-caa5-4e6a-a2e9-06fd34ac1f9f.png" 
             alt="NeuralFrog Logo" 
             className="w-12 h-12 rounded-full glitch-effect"
           />

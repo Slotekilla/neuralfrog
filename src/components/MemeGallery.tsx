@@ -4,17 +4,17 @@ import { Share2, Download } from 'lucide-react';
 const MemeGallery: React.FC = () => {
   const memeImages = [
     {
-      src: '/public/cb942dbe-4cc8-413a-91f1-a1b1a4faffc6.png',
+      src: '/cb942dbe-4cc8-413a-91f1-a1b1a4faffc6.png',
       title: 'Neuro Predicting Gains',
       description: 'When AI meets trading expertise 📈'
     },
     {
-      src: '/public/8d5e2d4a-3bd8-42e0-b26a-a7545b3c6d3d.png',
+      src: '/8d5e2d4a-3bd8-42e0-b26a-a7545b3c6d3d.png',
       title: 'Evolution Chamber',
       description: 'Neuro evolving with community votes 🧬'
     },
     {
-      src: '/public/d49b5ef9-3d23-4648-bd4d-d94757e4edaf.png',
+      src: '/d49b5ef9-3d23-4648-bd4d-d94757e4edaf.png',
       title: 'To the Moon',
       description: 'Next stop: lunar surface 🚀'
     }

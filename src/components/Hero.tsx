@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="/public/415093c7-58d6-4910-93d5-08eba44e9719.png"
+          src="/415093c7-58d6-4910-93d5-08eba44e9719.png"
           alt="NeuralFrog AI Cyberpunk Scene"
           className="w-full h-full object-cover opacity-80"
         />

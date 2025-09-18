@@ -45,7 +45,7 @@ const About: React.FC = () => {
 
           <div className="relative">
             <img 
-              src="/public/8d5e2d4a-3bd8-42e0-b26a-a7545b3c6d3d.png"
+              src="/8d5e2d4a-3bd8-42e0-b26a-a7545b3c6d3d.png"
               alt="NeuralFrog Evolution Chamber"
               className="w-full rounded-lg shadow-2xl glitch-effect border border-green-400/30"
             />
