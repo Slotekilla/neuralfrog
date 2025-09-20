@@ -16,8 +16,8 @@ function App() {
       <Hero />
       <About />
       <Tokenomics />
-      <Roadmap />
       <TelegramBot />
+      <Roadmap />
       <MemeGallery />
       <Footer />
     </div>
