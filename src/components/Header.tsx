@@ -56,6 +56,12 @@ const Header: React.FC = () => {
           >
             Roadmap
           </button>
+          <button 
+            onClick={() => scrollToSection('telegram-bot')}
+            className="text-gray-300 hover:text-green-400 transition-colors duration-200"
+          >
+            AI Bot
+          </button>
           <a 
             href="https://x.com/NRF_NeuralFrog" 
             target="_blank" 
@@ -120,6 +126,12 @@ const Header: React.FC = () => {
               className="text-left text-gray-300 hover:text-green-400 transition-colors duration-200"
             >
               Roadmap
+            </button>
+            <button 
+              onClick={() => scrollToSection('telegram-bot')}
+              className="text-left text-gray-300 hover:text-green-400 transition-colors duration-200"
+            >
+              AI Bot
             </button>
             <a 
               href="https://x.com/NRF_NeuralFrog" 
