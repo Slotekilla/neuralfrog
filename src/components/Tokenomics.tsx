@@ -91,32 +91,32 @@ const Tokenomics: React.FC = () => {
             <h3 className="text-2xl font-bold text-green-400 mb-4 font-orbitron">Tax Structure</h3>
             <div className="space-y-3">
               <div className="flex justify-between">
-                <span className="text-gray-300">Buy Tax:</span>
-                <span className="text-white font-semibold">5%</span>
+                <span className="text-gray-300">Pump.fun Fee:</span>
+                <span className="text-white font-semibold">1%</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Sell Tax:</span>
-                <span className="text-white font-semibold">5%</span>
+                <span className="text-gray-300">Creator Fee:</span>
+                <span className="text-white font-semibold">1%</span>
               </div>
               <div className="text-sm text-gray-400 mt-4">
-                Distribution: 2% LP, 2% rewards, 1% burn
+                No additional taxes - fair launch on pump.fun
               </div>
             </div>
           </div>
 
           <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-6 hover:border-green-400/60 transition-colors duration-200">
-            <h3 className="text-2xl font-bold text-green-400 mb-4 font-orbitron">Supply Info</h3>
+            <h3 className="text-2xl font-bold text-green-400 mb-4 font-orbitron">Airdrop Info</h3>
             <div className="space-y-3">
               <div className="flex justify-between">
-                <span className="text-gray-300">Total Supply:</span>
-                <span className="text-white font-semibold">1,000,000,000 $NRF</span>
+                <span className="text-gray-300">Airdrop Trigger:</span>
+                <span className="text-white font-semibold">1,000 Holders</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Circulating Supply:</span>
-                <span className="text-white font-semibold">950,000,000 $NRF</span>
+                <span className="text-gray-300">Eligible Holders:</span>
+                <span className="text-white font-semibold">First 1,000 Only</span>
               </div>
               <div className="text-sm text-gray-400 mt-4">
-                Deflationary mechanism through automated burns
+                Early holders get exclusive airdrops when milestone reached
               </div>
             </div>
           </div>
