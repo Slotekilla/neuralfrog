@@ -61,7 +61,7 @@ const Countdown: React.FC = () => {
   }
 
   return (
-    <div className="bg-black/30 backdrop-blur-sm border border-green-400/30 rounded-xl p-6 mb-8">
+    <div className="bg-black/10 backdrop-blur-sm border border-green-400/30 rounded-xl p-6 mb-8">
       <div className="text-center mb-4">
         <div className="flex items-center justify-center space-x-2 mb-2">
           <Clock className="text-green-400" size={24} />
