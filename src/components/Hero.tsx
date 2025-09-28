@@ -1,5 +1,6 @@
 import React from 'react';
 import { Rocket, Zap } from 'lucide-react';
+import Countdown from './Countdown';
 
 const Hero: React.FC = () => {
   return (
@@ -36,6 +37,8 @@ const Hero: React.FC = () => {
           Evolving meme coin on Solana. Community-voted AI tools, P2E game, staking.<br />
           Fair launch on pump.fun.
         </p>
+
+        <Countdown />
 
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a 
