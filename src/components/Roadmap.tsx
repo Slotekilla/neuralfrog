@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Gamepad2, Grid as Bridge, Coins } from 'lucide-react';
+import { Calendar, Gamepad2, Grid2x2 as Bridge, Coins } from 'lucide-react';
 
 const Roadmap: React.FC = () => {
   const roadmapItems = [
