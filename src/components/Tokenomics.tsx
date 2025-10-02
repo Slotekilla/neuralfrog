@@ -113,14 +113,14 @@ const Tokenomics: React.FC = () => {
             <div className="space-y-3">
               <div className="flex justify-between">
                 <span className="text-gray-300">Airdrop Trigger:</span>
-                <span className="text-white font-semibold">1,000 Holders</span>
+                <span className="text-white font-semibold">10,000 Holders</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-300">Eligible Holders:</span>
-                <span className="text-white font-semibold">First 1,000 Only</span>
+                <span className="text-white font-semibold">First 10,000 Only</span>
               </div>
               <div className="text-sm text-gray-400 mt-4">
-                Early holders get exclusive airdrops when milestone reached
+                Early holders get exclusive airdrops when 10,000 holder milestone is reached
               </div>
             </div>
           </div>
