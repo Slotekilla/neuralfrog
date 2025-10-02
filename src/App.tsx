@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Tokenomics from './components/Tokenomics';
+import P2EGaming from './components/P2EGaming';
 import Roadmap from './components/Roadmap';
 import TelegramBot from './components/TelegramBot';
 import MemeGallery from './components/MemeGallery';
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <About />
       <Tokenomics />
+      <P2EGaming />
       <TelegramBot />
       <Roadmap />
       <MemeGallery />

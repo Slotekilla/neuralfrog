@@ -91,15 +91,19 @@ const Tokenomics: React.FC = () => {
             <h3 className="text-2xl font-bold text-green-400 mb-4 font-orbitron">Tax Structure</h3>
             <div className="space-y-3">
               <div className="flex justify-between">
-                <span className="text-gray-300">Pump.fun Fee:</span>
+                <span className="text-gray-300">Total Tax:</span>
+                <span className="text-white font-semibold">2%</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-gray-300">• Pump.fun Fee:</span>
                 <span className="text-white font-semibold">1%</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-300">Creator Fee:</span>
+                <span className="text-gray-300">• Creator Fee:</span>
                 <span className="text-white font-semibold">1%</span>
               </div>
               <div className="text-sm text-gray-400 mt-4">
-                No additional taxes - fair launch on pump.fun
+                Fair launch on pump.fun with transparent fee structure
               </div>
             </div>
           </div>

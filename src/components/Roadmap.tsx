@@ -14,18 +14,26 @@ const Roadmap: React.FC = () => {
     {
       quarter: 'Q1 2026',
       title: 'Gaming Evolution',
-      description: 'P2E frog battles, staking pools',
+      description: 'P2E Season 1, Neuro v2, Ethereum bridge',
       icon: <Gamepad2 className="text-cyan-400" size={32} />,
       status: 'upcoming',
-      details: ['P2E battle system', 'Staking rewards', 'NFT integration', 'Tournament system']
+      details: ['P2E Season 1 launch', 'Neuro v2 AI upgrade', 'Ethereum bridge deployment', 'TON Telegram integration']
     },
     {
       quarter: 'Q2 2026',
-      title: 'Cross-Chain Expansion',
-      description: 'TON bridge, DeFi yields',
+      title: 'Multi-Chain Expansion',
+      description: 'XRP + TRON bridges, DAO Phase 2, mobile app',
       icon: <Bridge className="text-purple-400" size={32} />,
       status: 'upcoming',
-      details: ['TON blockchain bridge', 'Advanced DeFi yields', 'Multi-chain compatibility', 'Enhanced predictions']
+      details: ['XRP Ledger bridge', 'TRON network bridge', 'DAO Phase 2 governance', 'Mobile app launch']
+    },
+    {
+      quarter: 'Q3 2026+',
+      title: 'Ecosystem Maturity',
+      description: 'NFT integrations, cross-chain tournaments, 1M holders',
+      icon: <Coins className="text-orange-400" size={32} />,
+      status: 'upcoming',
+      details: ['NFT battle integrations', 'Cross-chain tournaments', 'DAO treasury execution', '1M holders target']
     }
   ];
 

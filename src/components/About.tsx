@@ -15,30 +15,30 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              Neuro starts as a glitchy pond frog but evolves via holder votes into a hyper-intelligent trader. 
-              Satirizing AI overlords while building real utility—meme generator, market predictions, DeFi yields.
+              NeuralFrog ($NRF) is the first AI-powered, community-evolving meme-utility token designed for global adoption across multiple blockchains. 
+              At its core is the Neuro AI Prediction Bot, delivering fast, low-cost trading signals, combined with Play-to-Earn Frog Battles and progressive governance.
             </p>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-semibold">
-              In a world of bots, one frog hops ahead. 🐸
+              Unlike traditional meme tokens that rely only on hype, NRF bridges the gap between meme virality and institutional-grade credibility. 🐸
             </p>
 
             <div className="grid sm:grid-cols-3 gap-6 mt-8">
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
                 <Brain className="text-green-400 mx-auto mb-3" size={40} />
-                <h3 className="text-white font-semibold mb-2">AI Evolution</h3>
-                <p className="text-gray-400 text-sm">Community-driven intelligence upgrades</p>
+                <h3 className="text-white font-semibold mb-2">AI Core</h3>
+                <p className="text-gray-400 text-sm">Continuously improving prediction bot guided by community feedback</p>
               </div>
               
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
                 <Target className="text-green-400 mx-auto mb-3" size={40} />
-                <h3 className="text-white font-semibold mb-2">Predictions</h3>
-                <p className="text-gray-400 text-sm">Advanced market analysis and calls</p>
+                <h3 className="text-white font-semibold mb-2">P2E Battles</h3>
+                <p className="text-gray-400 text-sm">Stake NRF to enter seasonal competitions with transparent rewards</p>
               </div>
               
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
                 <TrendingUp className="text-green-400 mx-auto mb-3" size={40} />
-                <h3 className="text-white font-semibold mb-2">DeFi Yields</h3>
-                <p className="text-gray-400 text-sm">Automated yield farming strategies</p>
+                <h3 className="text-white font-semibold mb-2">Multi-Chain</h3>
+                <p className="text-gray-400 text-sm">Deployments across Solana, Ethereum, XRP, TRON, and TON</p>
               </div>
             </div>
           </div>

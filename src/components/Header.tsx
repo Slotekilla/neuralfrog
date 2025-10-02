@@ -51,6 +51,18 @@ const Header: React.FC = () => {
             Tokenomics
           </button>
           <button 
+            onClick={() => scrollToSection('p2e-gaming')}
+            className="text-left text-gray-300 hover:text-green-400 transition-colors duration-200"
+          >
+            P2E Gaming
+          </button>
+          <button 
+            onClick={() => scrollToSection('p2e-gaming')}
+            className="text-gray-300 hover:text-green-400 transition-colors duration-200"
+          >
+            P2E Gaming
+          </button>
+          <button 
             onClick={() => scrollToSection('roadmap')}
             className="text-gray-300 hover:text-green-400 transition-colors duration-200"
           >

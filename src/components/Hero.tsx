@@ -34,8 +34,8 @@ const Hero: React.FC = () => {
         </div>
 
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-          Evolving meme coin on Solana. Community-voted AI tools, P2E game, staking.<br />
-          Fair launch on pump.fun.
+          The first AI-powered, community-evolving meme-utility token designed for global adoption across multiple blockchains.<br />
+          AI predictions, P2E battles, and progressive governance. Fair launch on pump.fun.
         </p>
 
         <Countdown />
