@@ -4,7 +4,7 @@ import Countdown from './Countdown';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 matrix-bg opacity-20"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-4 max-w-6xl mx-auto mt-8">
         <div className="mb-8">
           <h1 className="text-4xl md:text-7xl font-black font-orbitron mb-4 glitch-text">
             <span className="bg-gradient-to-r from-green-400 via-cyan-400 to-green-400 bg-clip-text text-transparent">
@@ -67,8 +67,8 @@ const Hero: React.FC = () => {
             <div className="text-sm text-gray-400">Total Supply</div>
           </div>
           <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-4">
-            <div className="text-2xl font-bold text-green-400">5%</div>
-            <div className="text-sm text-gray-400">Buy/Sell Tax</div>
+            <div className="text-2xl font-bold text-green-400">2%</div>
+            <div className="text-sm text-gray-400">Total Tax</div>
           </div>
           <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-4">
             <div className="text-2xl font-bold text-green-400">60%</div>

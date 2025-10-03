@@ -22,7 +22,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${
       isScrolled ? 'bg-black/90 backdrop-blur-md border-b border-green-400/30' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -49,12 +49,6 @@ const Header: React.FC = () => {
             className="text-gray-300 hover:text-green-400 transition-colors duration-200"
           >
             Tokenomics
-          </button>
-          <button 
-            onClick={() => scrollToSection('p2e-gaming')}
-            className="text-left text-gray-300 hover:text-green-400 transition-colors duration-200"
-          >
-            P2E Gaming
           </button>
           <button 
             onClick={() => scrollToSection('p2e-gaming')}
@@ -119,7 +113,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-black/95 backdrop-blur-md border-t border-green-400/30">
+        <div className="md:hidden bg-black/95 backdrop-blur-md border-t border-green-400/30 relative z-[110]">
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <button 
               onClick={() => scrollToSection('about')}
@@ -132,6 +126,12 @@ const Header: React.FC = () => {
               className="text-left text-gray-300 hover:text-green-400 transition-colors duration-200"
             >
               Tokenomics
+            </button>
+            <button 
+              onClick={() => scrollToSection('p2e-gaming')}
+              className="text-left text-gray-300 hover:text-green-400 transition-colors duration-200"
+            >
+              P2E Gaming
             </button>
             <button 
               onClick={() => scrollToSection('roadmap')}
