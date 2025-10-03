@@ -1,39 +1,63 @@
 import React from 'react';
-import { Calendar, Gamepad2, Grid2x2 as Bridge, Coins } from 'lucide-react';
+import { Calendar, Gamepad2, Grid2x2 as Bridge, Coins, Users, Target } from 'lucide-react';
 
 const Roadmap: React.FC = () => {
   const roadmapItems = [
     {
-      quarter: 'Q4 2025 (Phase 1)',
+      quarter: 'Q4 2025 (Phase 1 - Launch)',
       title: 'Fair Launch',
-      description: 'Fair launch on Pump.fun, Neuro AI bot live, P2E beta',
+      description: 'Fair launch on Pump.fun (Solana), Neuro AI bot fully live, P2E Frog Battles beta',
       icon: <Coins className="text-green-400" size={32} />,
       status: 'current',
       details: ['Fair launch on Pump.fun (Solana)', 'Neuro AI bot fully live', 'P2E Frog Battles beta', 'Target: 10k holders, $1M market cap']
     },
     {
-      quarter: 'Q4 2025–Q1 2026',
+      quarter: 'Q4 2025–Q1 2026 (Migration Trigger)',
       title: 'Migration Trigger',
-      description: 'Execute migration once milestones achieved',
+      description: 'Execute migration once milestones achieved: $1M MC, 5k holders, 10k community',
       icon: <Gamepad2 className="text-cyan-400" size={32} />,
       status: 'upcoming',
-      details: ['$1M MC, 5k holders, 10k community', 'Deploy new contract, tokenomics', 'Liquidity locks', 'Bug bounty + audit launch']
+      details: ['Execute migration once milestones achieved', 'Deploy new contract, tokenomics, liquidity locks', 'Bug bounty + audit launch']
     },
     {
-      quarter: 'Q1 2026',
+      quarter: 'Q1 2026 (Growth Phase)',
       title: 'Growth Phase',
-      description: 'P2E full release, advanced AI, Ethereum bridge',
+      description: 'P2E Frog Battles full release, advanced AI models, cross-chain bridge to Ethereum',
       icon: <Bridge className="text-purple-400" size={32} />,
       status: 'upcoming',
-      details: ['P2E Frog Battles full release', 'Advanced AI models (sentiment)', 'Cross-chain bridge to Ethereum', 'CEX outreach (MEXC, KuCoin, Gate)']
+      details: ['P2E Frog Battles full release', 'Advanced AI models (sentiment analysis)', 'Cross-chain bridge to Ethereum', 'CEX outreach (MEXC, KuCoin, Gate)']
     },
     {
-      quarter: 'Q2 2026',
+      quarter: 'Q2 2026 (Expansion Phase)',
       title: 'Expansion Phase',
-      description: 'Multi-chain expansion, DAO rollout, mobile app',
+      description: 'Cross-chain: XRP + TRON + TON, Governance DAO rollout, mobile app release',
       icon: <Coins className="text-orange-400" size={32} />,
       status: 'upcoming',
-      details: ['Cross-chain: XRP + TRON + TON', 'Governance DAO rollout', 'Mobile app release', 'Target: $100M MC, 100k holders']
+      details: ['Cross-chain: XRP + TRON + TON', 'Governance DAO rollout', 'Influencer/brand partnerships', 'Mobile app release', 'Target: $100M market cap, 100k holders']
+    },
+    {
+      quarter: 'Q3 2026+ (Maturity Phase)',
+      title: 'Maturity Phase',
+      description: 'NFT integrations, Bittensor subnet exploration, top-tier CEX listings',
+      icon: <Bridge className="text-pink-400" size={32} />,
+      status: 'upcoming',
+      details: ['NFT integrations, Neuro personalization', 'Bittensor subnet exploration', 'Top-tier CEX listings (Binance, Coinbase, OKX)', 'Target: $1B+ market cap, 1M holders']
+    },
+    {
+      quarter: 'Q4 2026 (Global Scale-Up)',
+      title: 'Global Scale-Up',
+      description: 'Cross-Chain Frog Battles, Treasury DAO Phase 2, institutional partnerships',
+      icon: <Users className="text-indigo-400" size={32} />,
+      status: 'upcoming',
+      details: ['Cross-Chain Frog Battles: interoperable tournaments', 'Treasury DAO Phase 2: holders govern community treasury', 'Institutional Partnerships: trading firms, DeFi protocols', 'NFT Frogverse: limited-edition NFT collections', 'Target: $250M–$500M Market Cap, 250k+ holders']
+    },
+    {
+      quarter: 'Q1 2027 (Institutional Adoption)',
+      title: 'Institutional Adoption & Global Recognition',
+      description: 'Top-tier CEX dominance, AI-as-a-Service, Neuro Mobile Super-App',
+      icon: <Target className="text-emerald-400" size={32} />,
+      status: 'upcoming',
+      details: ['Top-Tier CEX Dominance: Coinbase, Binance, OKX, Bybit', 'AI-as-a-Service (AaaS): Neuro Bot API/subscription model', 'Neuro Mobile Super-App: trading signals, P2E battles, staking', 'Layer-2 / Subnet Exploration: NeuralFrog subnet on Bittensor', 'Target: $1B+ Market Cap, 1M+ holders, mainstream coverage']
     }
   ];
 
