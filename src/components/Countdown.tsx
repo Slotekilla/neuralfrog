@@ -69,7 +69,6 @@ const Countdown: React.FC = () => {
           <span className="text-xl font-bold text-green-400 font-orbitron">Launch Countdown</span>
         </div>
         <p className="text-gray-300 text-sm">October 3rd, 2025 • 8:00 PM UTC+1</p>
-        <p className="text-gray-300 text-sm">October 10th, 2025 • 8:00 PM UTC</p>
       </div>
       
       <div className="grid grid-cols-4 gap-4">
