@@ -15,30 +15,30 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              NeuralFrog ($NRF) is the first AI-powered, community-evolving meme-utility token designed for global adoption across multiple blockchains. 
-              At its core is the Neuro AI Prediction Bot, delivering fast, low-cost trading signals, combined with Play-to-Earn Frog Battles and progressive governance.
+              NeuralFrog ($NRF) is the first AI-powered, community-evolving meme-utility token built to combine viral meme culture with institutional-grade credibility.
+              At its heart is Neuro, a neon-green frog mascot that evolves through community input.
             </p>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-semibold">
-              Unlike traditional meme tokens that rely only on hype, NRF bridges the gap between meme virality and institutional-grade credibility. 🐸
+              The project launches fairly via Pump.fun on Solana (Phase 1), then upgrades to a custom smart contract with official tokenomics (Phase 2) once growth milestones are met. 🐸
             </p>
 
             <div className="grid sm:grid-cols-3 gap-6 mt-8">
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
                 <Brain className="text-green-400 mx-auto mb-3" size={40} />
-                <h3 className="text-white font-semibold mb-2">AI Core</h3>
-                <p className="text-gray-400 text-sm">Continuously improving prediction bot guided by community feedback</p>
+                <h3 className="text-white font-semibold mb-2">AI Trading Tools</h3>
+                <p className="text-gray-400 text-sm">Real-time BUY/WATCH/AVOID calls with ~70% accuracy</p>
               </div>
               
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
                 <Target className="text-green-400 mx-auto mb-3" size={40} />
                 <h3 className="text-white font-semibold mb-2">P2E Battles</h3>
-                <p className="text-gray-400 text-sm">Stake NRF to enter seasonal competitions with transparent rewards</p>
+                <p className="text-gray-400 text-sm">Stake NRF to train Neuro in AI-simulated trading battles</p>
               </div>
               
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
                 <TrendingUp className="text-green-400 mx-auto mb-3" size={40} />
-                <h3 className="text-white font-semibold mb-2">Multi-Chain</h3>
-                <p className="text-gray-400 text-sm">Deployments across Solana, Ethereum, XRP, TRON, and TON</p>
+                <h3 className="text-white font-semibold mb-2">Two-Phase Launch</h3>
+                <p className="text-gray-400 text-sm">Fair launch evolving to structured tokenomics</p>
               </div>
             </div>
           </div>

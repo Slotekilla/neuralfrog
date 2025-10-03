@@ -83,12 +83,12 @@ const Footer: React.FC = () => {
                 Buy $NRF Now
               </a>
               <a 
-                href="/NeuralFrog ($NRF) — Whitepaper v1 (1).pdf" 
+                href="/NeuralFrog ($NRF) — Whitepaper V2 (1).pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full border border-cyan-400 text-cyan-400 px-6 py-3 rounded-lg font-semibold hover:bg-cyan-400/10 transition-all duration-200 text-center"
               >
-                📄 Download Whitepaper
+                📄 Download Whitepaper V2.0
               </a>
               <button 
                 onClick={() => document.getElementById('tokenomics')?.scrollIntoView({ behavior: 'smooth' })}

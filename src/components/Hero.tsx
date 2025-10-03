@@ -67,12 +67,12 @@ const Hero: React.FC = () => {
             <div className="text-sm text-gray-400">Total Supply</div>
           </div>
           <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-4">
-            <div className="text-2xl font-bold text-green-400">2%</div>
-            <div className="text-sm text-gray-400">Total Tax</div>
+            <div className="text-2xl font-bold text-green-400">Fair</div>
+            <div className="text-sm text-gray-400">Launch</div>
           </div>
           <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-4">
-            <div className="text-2xl font-bold text-green-400">60%</div>
-            <div className="text-sm text-gray-400">Liquidity Pool</div>
+            <div className="text-2xl font-bold text-green-400">100%</div>
+            <div className="text-sm text-gray-400">Into LP</div>
           </div>
           <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-4">
             <div className="text-2xl font-bold text-green-400">AI</div>

@@ -4,36 +4,36 @@ import { Calendar, Gamepad2, Grid2x2 as Bridge, Coins } from 'lucide-react';
 const Roadmap: React.FC = () => {
   const roadmapItems = [
     {
-      quarter: 'Q4 2025',
-      title: 'Genesis Launch',
-      description: 'Fair launch on pump.fun, AI meme generator live',
+      quarter: 'Q4 2025 (Phase 1)',
+      title: 'Fair Launch',
+      description: 'Fair launch on Pump.fun, Neuro AI bot live, P2E beta',
       icon: <Coins className="text-green-400" size={32} />,
       status: 'current',
-      details: ['Fair launch on pump.fun', 'AI meme generator', 'Community building', 'Initial marketing']
+      details: ['Fair launch on Pump.fun (Solana)', 'Neuro AI bot fully live', 'P2E Frog Battles beta', 'Target: 10k holders, $1M market cap']
+    },
+    {
+      quarter: 'Q4 2025–Q1 2026',
+      title: 'Migration Trigger',
+      description: 'Execute migration once milestones achieved',
+      icon: <Gamepad2 className="text-cyan-400" size={32} />,
+      status: 'upcoming',
+      details: ['$1M MC, 5k holders, 10k community', 'Deploy new contract, tokenomics', 'Liquidity locks', 'Bug bounty + audit launch']
     },
     {
       quarter: 'Q1 2026',
-      title: 'Gaming Evolution',
-      description: 'P2E Season 1, Neuro v2, Ethereum bridge',
-      icon: <Gamepad2 className="text-cyan-400" size={32} />,
+      title: 'Growth Phase',
+      description: 'P2E full release, advanced AI, Ethereum bridge',
+      icon: <Bridge className="text-purple-400" size={32} />,
       status: 'upcoming',
-      details: ['P2E Season 1 launch', 'Neuro v2 AI upgrade', 'Ethereum bridge deployment', 'TON Telegram integration']
+      details: ['P2E Frog Battles full release', 'Advanced AI models (sentiment)', 'Cross-chain bridge to Ethereum', 'CEX outreach (MEXC, KuCoin, Gate)']
     },
     {
       quarter: 'Q2 2026',
-      title: 'Multi-Chain Expansion',
-      description: 'XRP + TRON bridges, DAO Phase 2, mobile app',
-      icon: <Bridge className="text-purple-400" size={32} />,
-      status: 'upcoming',
-      details: ['XRP Ledger bridge', 'TRON network bridge', 'DAO Phase 2 governance', 'Mobile app launch']
-    },
-    {
-      quarter: 'Q3 2026+',
-      title: 'Ecosystem Maturity',
-      description: 'NFT integrations, cross-chain tournaments, 1M holders',
+      title: 'Expansion Phase',
+      description: 'Multi-chain expansion, DAO rollout, mobile app',
       icon: <Coins className="text-orange-400" size={32} />,
       status: 'upcoming',
-      details: ['NFT battle integrations', 'Cross-chain tournaments', 'DAO treasury execution', '1M holders target']
+      details: ['Cross-chain: XRP + TRON + TON', 'Governance DAO rollout', 'Mobile app release', 'Target: $100M MC, 100k holders']
     }
   ];
 

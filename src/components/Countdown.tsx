@@ -11,8 +11,8 @@ const Countdown: React.FC = () => {
   });
 
   useEffect(() => {
-    // Launch date: October 10th, 2025, 8pm UTC+1 (7pm UTC)
-    const launchDate = new Date('2025-10-10T19:00:00Z').getTime();
+    // Launch date: October 3rd, 2025, 8pm UTC+1 (7pm UTC)
+    const launchDate = new Date('2025-10-03T19:00:00Z').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -68,7 +68,6 @@ const Countdown: React.FC = () => {
           <span className="text-xl font-bold text-green-400 font-orbitron">Launch Countdown</span>
         </div>
         <p className="text-gray-300 text-sm">October 3rd, 2025 • 8:00 PM UTC+1</p>
-        <p className="text-gray-300 text-sm">October 10th, 2025 • 8:00 PM UTC+1</p>
       </div>
       
       <div className="grid grid-cols-4 gap-4">

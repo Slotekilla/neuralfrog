@@ -28,8 +28,7 @@ const TelegramBot: React.FC = () => {
               </div>
 
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Get AI predictions for crypto tokens including SOL, BTC, ETH, DOGE, and BONK. 
-                Neuro provides pump scores, price move predictions, risk analysis, and buy/sell verdicts.
+                Get real-time BUY/WATCH/AVOID calls with risk scoring. Neuro provides ~70% backtested accuracy for SOL, BTC, ETH with updates every 3 minutes.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4 mb-6">
