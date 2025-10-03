@@ -11,7 +11,7 @@ const Countdown: React.FC = () => {
   });
 
   useEffect(() => {
-    // Launch date: October 10th, 2025 at 8PM UTC+1 (7PM UTC)
+    // Launch date: October 10th, 2025 at 8PM UTC+2 (8PM UTC)
     const launchDate = new Date('2025-10-10T19:00:00Z').getTime(); // 8PM UTC+1 = 7PM UTC
 
     const timer = setInterval(() => {
