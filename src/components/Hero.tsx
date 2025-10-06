@@ -51,13 +51,15 @@ const Hero: React.FC = () => {
             <span>Buy $NRF Now</span>
           </a>
           
-          <button 
-            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+          <a 
+            href="/NeuralFrog ($NRF) — Whitepaper V3.1.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="border-2 border-green-400 text-green-400 px-8 py-4 rounded-lg text-xl font-semibold hover:bg-green-400/10 transition-all duration-200 flex items-center space-x-2"
           >
-            <span>Learn More</span>
+            <span>📄 Read Whitepaper V3.1</span>
             <span className="text-xl">🧠</span>
-          </button>
+          </a>
         </div>
 
         {/* Stats */}
