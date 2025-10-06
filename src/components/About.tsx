@@ -24,7 +24,6 @@ const About: React.FC = () => {
               <span className="text-green-400">real, sustainable on-chain revenue sharing</span>. Fair launch on Pump.fun → Full ecosystem with revenue distribution. 🐸
             </p>
 
-            {/* Core Technology Pillars */}
             <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-6 mt-6">
               <h3 className="text-xl font-bold text-green-400 mb-4 font-orbitron">🧠 Core AI Infrastructure</h3>
               <div className="space-y-3 text-sm">
@@ -57,6 +56,7 @@ const About: React.FC = () => {
                   </div>
                 </div>
               </div>
+            </div>
 
             <div className="grid sm:grid-cols-3 gap-6 mt-8">
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
@@ -94,5 +94,3 @@ const About: React.FC = () => {
 };
 
 export default About;
-  )
-}
