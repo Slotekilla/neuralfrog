@@ -57,7 +57,6 @@ const About: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </p>
 
             <div className="grid sm:grid-cols-3 gap-6 mt-8">
               <div className="text-center p-6 bg-black/50 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-colors duration-200">
