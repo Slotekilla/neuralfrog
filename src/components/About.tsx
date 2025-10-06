@@ -15,11 +15,48 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              NeuralFrog ($NRF) is the first AI-powered, community-evolving meme-utility token built to combine viral meme culture with institutional-grade credibility.
-              At its heart is Neuro, a neon-green frog mascot that evolves through community input.
+              NeuralFrog ($NRF) is the first <span className="text-green-400 font-semibold">AI-driven, self-learning meme economy</span> - merging AI, 
+              community intelligence, and meme culture into a living financial organism. At its heart is Neuro, a neon-green AI frog evolving through user interactions and 
+              community-driven decisions.
             </p>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-semibold">
-              The project launches fairly via Pump.fun on Solana (Phase 1), then upgrades to a custom smart contract with official tokenomics (Phase 2) once growth milestones are met. 🐸
+              <span className="text-cyan-400">This isn't just a token - it's a movement</span>, combining viral culture with machine intelligence and 
+              <span className="text-green-400">real, sustainable on-chain revenue sharing</span>. Fair launch on Pump.fun → Full ecosystem with revenue distribution. 🐸
+            </p>
+
+            {/* Core Technology Pillars */}
+            <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-6 mt-6">
+              <h3 className="text-xl font-bold text-green-400 mb-4 font-orbitron">🧠 Core AI Infrastructure</h3>
+              <div className="space-y-3 text-sm">
+                <div className="flex items-start space-x-3">
+                  <span className="text-green-400 mt-1">•</span>
+                  <div>
+                    <span className="text-white font-semibold">Neural Intelligence Protocol (NIP):</span>
+                    <span className="text-gray-300"> Transforms holders into active nodes of a decentralized AI brain</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-cyan-400 mt-1">•</span>
+                  <div>
+                    <span className="text-white font-semibold">Adaptive Treasury Engine (ATE):</span>
+                    <span className="text-gray-300"> AI-powered automated buybacks and liquidity management</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-purple-400 mt-1">•</span>
+                  <div>
+                    <span className="text-white font-semibold">FrogNet Cross-Chain Router:</span>
+                    <span className="text-gray-300"> AI-governed liquidity routing across multiple blockchains</span>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-orange-400 mt-1">•</span>
+                  <div>
+                    <span className="text-white font-semibold">XP System (Proof of Loyalty):</span>
+                    <span className="text-gray-300"> Gamified reputation layer converting activity to real rewards</span>
+                  </div>
+                </div>
+              </div>
             </p>
 
             <div className="grid sm:grid-cols-3 gap-6 mt-8">

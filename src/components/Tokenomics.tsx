@@ -55,10 +55,93 @@ const Tokenomics: React.FC = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black font-orbitron text-green-400 mb-6">
-            Two-Phase Tokenomics
+            Revenue-Sharing Ecosystem
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-cyan-400 mx-auto rounded-full mb-6"></div>
-          <p className="text-xl text-gray-300">Fair launch evolving to structured tokenomics</p>
+          <p className="text-xl text-gray-300">Real revenue generation with transparent profit sharing</p>
+        </div>
+
+        {/* Protocol Revenue Engine - NEW PROMINENT SECTION */}
+        <div className="bg-gradient-to-r from-green-400/20 to-cyan-400/20 backdrop-blur-sm border border-green-400/50 rounded-xl p-8 mb-16">
+          <div className="text-center mb-8">
+            <h3 className="text-4xl font-bold text-green-400 mb-4 font-orbitron">💰 Protocol Revenue Engine</h3>
+            <p className="text-xl text-white">Sustainable income streams with automated profit distribution</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div>
+              <h4 className="text-2xl font-semibold text-cyan-400 mb-4 font-orbitron">Revenue Streams</h4>
+              <div className="space-y-3">
+                <div className="flex items-center space-x-3 p-3 bg-black/30 rounded-lg">
+                  <span className="text-green-400">🤖</span>
+                  <div>
+                    <span className="text-white font-semibold">Neuro AI Bot Fees:</span>
+                    <span className="text-gray-300 text-sm block">0.1-0.3 SOL per premium prediction</span>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-3 p-3 bg-black/30 rounded-lg">
+                  <span className="text-purple-400">🎮</span>
+                  <div>
+                    <span className="text-white font-semibold">P2E Battle Fees:</span>
+                    <span className="text-gray-300 text-sm block">1-2% of prize pools</span>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-3 p-3 bg-black/30 rounded-lg">
+                  <span className="text-orange-400">🔌</span>
+                  <div>
+                    <span className="text-white font-semibold">API Subscriptions:</span>
+                    <span className="text-gray-300 text-sm block">AI-as-a-Service (Q1 2026+)</span>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-3 p-3 bg-black/30 rounded-lg">
+                  <span className="text-cyan-400">🎨</span>
+                  <div>
+                    <span className="text-white font-semibold">NFT & Meme Royalties:</span>
+                    <span className="text-gray-300 text-sm block">Community contests & collections</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="text-2xl font-semibold text-green-400 mb-4 font-orbitron">🎯 Revenue Allocation</h4>
+              <div className="space-y-4">
+                <div className="bg-black/50 rounded-lg p-4 border border-red-400/30">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-white font-semibold">Buyback & Burn</span>
+                    <span className="text-3xl font-bold text-red-400">50%</span>
+                  </div>
+                  <p className="text-gray-300 text-sm">Weekly automated $NRF purchases and burns</p>
+                </div>
+                
+                <div className="bg-black/50 rounded-lg p-4 border border-blue-400/30">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-white font-semibold">Liquidity Reinforcement</span>
+                    <span className="text-3xl font-bold text-blue-400">25%</span>
+                  </div>
+                  <p className="text-gray-300 text-sm">Cross-chain liquidity strengthening</p>
+                </div>
+                
+                <div className="bg-black/50 rounded-lg p-4 border border-purple-400/30">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-white font-semibold">DAO Treasury</span>
+                    <span className="text-3xl font-bold text-purple-400">25%</span>
+                  </div>
+                  <p className="text-gray-300 text-sm">Marketing, partnerships & development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="bg-black/50 backdrop-blur-sm border border-green-400/30 rounded-lg p-6">
+              <h5 className="text-xl font-bold text-green-400 mb-2 font-orbitron">📊 Full Transparency</h5>
+              <p className="text-gray-300 mb-4">On-chain revenue dashboard + weekly "Frog Buyback Reports"</p>
+              <div className="text-2xl font-bold text-cyan-400">
+                "Every transaction generates value for holders"
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Phase Overview */}
