@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a 
-            href="https://pump.fun/ABC123" 
+            href="https://pump.fun/coin/H2VJmEGdm2ihZoN3ia1o1VK8ta5wJxW2XUGMKVZbpump" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-green-400 to-cyan-400 text-black px-8 py-4 rounded-lg text-xl font-bold hover:from-green-300 hover:to-cyan-300 transition-all duration-200 glow-effect transform hover:scale-105 flex items-center space-x-2"
