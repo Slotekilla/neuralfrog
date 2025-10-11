@@ -8,6 +8,7 @@ import Roadmap from './components/Roadmap';
 import TelegramBot from './components/TelegramBot';
 import MemeGallery from './components/MemeGallery';
 import Footer from './components/Footer';
+import Whitepaper from './components/Whitepaper'; // ⬅️ DODANO
 import './styles/glitch.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <About />
       <Tokenomics />
+      <Whitepaper />   {/* ⬅️ DODANO: embed se prikaže tukaj */}
       <P2EGaming />
       <TelegramBot />
       <Roadmap />
